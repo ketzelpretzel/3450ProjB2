@@ -1,1 +1,0 @@
-Updated logo system: FinalLogo-03 header lockup, FinalLogo-06 footer wordmark, FinalLogo-09 hero symbol and favicon. All nine supplied variants are in assets/logos/. Existing external images, posters and archival photographs were not provided; preserve/copy your existing assets folders alongside assets/logos to display those images. Open index.html with Live Server.
