@@ -1,1 +1,0 @@
-Open index.html using Live Server. Historical Iconography now has EIGHT SEPARATE fascist symbol cards: Fasces, Totenkopf, Swastika, Black Sun, Othala/Odal Rune, SS Bolts, Reichsadler/Reich Eagles, and Wolfsangel. Add photographs to assets/history/archival/ using names in PHOTO_FILENAMES.txt. The ZIP contains no large photos.
