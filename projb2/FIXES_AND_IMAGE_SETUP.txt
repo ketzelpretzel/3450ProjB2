@@ -1,0 +1,8 @@
+FIXED: iconography.html restored so Historical Iconography navigation works.
+FIXED: missing poster images now show clear fallback text instead of broken image icons.
+
+IMPORTANT: The actual community poster and official poster image files were not included in the supplied website files and cannot be reconstructed from their filenames. Add the originals to assets/posters/ with exact filenames listed in assets/posters/IMAGE_FILES_NEEDED.txt.
+
+Historical images belong in assets/history/archival/. See PHOTO_FILENAMES.txt.
+
+Open index.html with Live Server in VS Code.

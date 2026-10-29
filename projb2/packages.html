@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="ANTIFA America &mdash; a conceptual civic-awareness organization website." name="description"/>
+  <title>
+   Find a protest | ANTIFA America
+  </title>
+  <link href="assets/logos/FinalLogo-09.png" rel="icon"/>
+  <link href="style.css" rel="stylesheet"/>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body>
+  <header class="site-header">
+   <div class="header-inner">
+    <a aria-label="ANTIFA America home" class="brand" href="index.html">
+     <img alt="ANTIFA America" class="header-lockup" src="assets/logos/FinalLogo-03.png"/>
+    </a>
+    <nav aria-label="Main navigation" class="nav">
+     <a class="" href="index.html">
+      Home
+     </a>
+     <a class="" href="gallery.html">
+      Poster library
+     </a>
+     <a href="iconography.html">
+      Historical iconography
+     </a>
+     <a class="" href="video.html">
+      History
+     </a>
+     <a class="active" href="packages.html">
+      Find a protest
+     </a>
+    </nav>
+   </div>
+  </header>
+  <section class="page-hero">
+   <div class="container">
+    <h1>
+     FIND A
+     <br/>
+     <span class="red">
+      PROTEST.
+     </span>
+    </h1>
+    <p>
+     A concept for discovering peaceful public demonstrations and community gatherings by ZIP code and travel distance.
+    </p>
+   </div>
+  </section>
+  <main>
+   <section class="section">
+    <div class="container">
+     <div class="finder">
+      <form id="finder-form">
+       <div class="form-grid">
+        <div class="field">
+         <label for="zipcode">
+          Your ZIP code
+         </label>
+         <input id="zipcode" inputmode="numeric" maxlength="5" pattern="[0-9]{5}" placeholder="e.g. 84058" required="" type="text"/>
+        </div>
+        <div class="field">
+         <label for="distance">
+          Maximum travel distance
+         </label>
+         <select id="distance">
+          <option value="10">
+           Within 10 miles
+          </option>
+          <option selected="" value="25">
+           Within 25 miles
+          </option>
+          <option value="50">
+           Within 50 miles
+          </option>
+          <option value="100">
+           Within 100 miles
+          </option>
+          <option value="250">
+           Within 250 miles
+          </option>
+         </select>
+        </div>
+       </div>
+       <button class="btn btn-red" type="submit">
+        Search demonstrations &rarr;
+       </button>
+      </form>
+      <div aria-live="polite" class="result" hidden="" id="finder-result">
+      </div>
+     </div>
+     <div class="note">
+      Proof-of-concept only. There is no event database, geolocation service, or verification of ANTIFA America partnerships. Entering a ZIP code demonstrates the intended interface without searching for actual events.
+     </div>
+     <div class="grid3">
+      <article class="event-card">
+       <div class="date">
+        DEMO / 01
+       </div>
+       <h3>
+        Community rights gathering
+       </h3>
+       <p>
+        Example listing with an event summary, public meeting location, organizer information, and accessibility details.
+       </p>
+       <div class="meta">
+        Sample event &middot; Not scheduled
+       </div>
+      </article>
+      <article class="event-card">
+       <div class="date">
+        DEMO / 02
+       </div>
+       <h3>
+        Civic education rally
+       </h3>
+       <p>
+        Example listing with travel distance, event guidelines, a route preview, and links to independent sources.
+       </p>
+       <div class="meta">
+        Sample event &middot; Not scheduled
+       </div>
+      </article>
+      <article class="event-card">
+       <div class="date">
+        DEMO / 03
+       </div>
+       <h3>
+        Public solidarity assembly
+       </h3>
+       <p>
+        Example listing showing what organizer verification and event updates might look like.
+       </p>
+       <div class="meta">
+        Sample event &middot; Not scheduled
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="container">
+    <div class="footer-inner">
+     <div>
+      <img alt="ANTIFA America" class="footer-wordmark" src="assets/logos/FinalLogo-06.png"/>
+      <p>
+       Recognize authoritarianism. Resist political oppression. Defend the freedoms of all people.
+      </p>
+      <p>
+       Student design concept &mdash; not an active organization or event service.
+      </p>
+     </div>
+     <div>
+      <strong>
+       EXPLORE
+      </strong>
+      <a href="index.html">
+       Home
+      </a>
+      <a href="video.html">
+       History
+      </a>
+      <a href="iconography.html">
+       Historical iconography
+      </a>
+      <a href="packages.html">
+       Find a protest
+      </a>
+     </div>
+     <div>
+      <strong>
+       TAKE PART
+      </strong>
+      <a href="gallery.html">
+       Poster library
+      </a>
+      <a href="gallery.html#upload">
+       Submit a poster
+      </a>
+     </div>
+    </div>
+    <div class="footer-bottom">
+     &copy; 2026 ANTIFA America &middot; Concept website &middot; Demonstration content only
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
